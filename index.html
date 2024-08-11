@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookutopia</title>
+    <style>
+        body.dark-mode {
+            background-color: #000000; 
+            color: #ffffff; 
+        }
+        body.dark-mode a {
+            color: #bb86fc;
+        }
+        body.dark-mode .pro-container .pro {
+            background-color: #1a1a1a; 
+            border: 1px solid #333; 
+        }
+        body.dark-mode footer {
+            background-color: #1a1a1a; 
+            border-top: 1px solid #333;
+        }
+        body.dark-mode .section-p1 {
+            background-color: #121212; 
+        }
+        body.dark-mode .des h5, body.dark-mode .des h4 {
+            color: #ffffff; 
+        }
+    </style>
+     <section id="header">
+        <a href="#">
+            <img src="hand-book-logo-illustration-art-background-43965136.webp/logo.png" class="logo" alt="">
+        </a>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-button">Search</button>
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="lol.php">home</a></li>
+                <li><a href="log.php">login</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="crime.html">reviews</a></li>
+            </ul>
+        </div>
+    </section>
+</head>
+<body>
+    <button onclick="toggleDarkMode()" style="position: fixed; top: 20px; right: 20px; padding: 10px; background-color: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Toggle Dark Mode</button>
+   
+    
+
+
+
+
+
+    <section id="hero">
+        <h2> “Above all don't</h2>
+        <h1> lie to your self”</h1>
+        <h4> — Fyodor Dostoyevsky</h4>
+        <p>buy 3 books for Dostoyevsky and get 1 for free</p>
+        <button><a href="log.php">shop now</a></button>
+    </section>
+    <section id="new-books" class="section-p1">
+        <h2>New Books</h2>
+        <p>More than 50k books</p>
+        <div class="pro-container">
+            <div class="pro">
+            <a href="hunger.html">
+                <img src="hu.jpeg" alt="">
+                <div class="des"></a>
+                    <h5>The Hunger Games</h5>
+                    <h4>$7</h4>
+                </div>
+            </div>
+
+            <div class="pro" >
+            <a href="fire.html"><img src="f.jpeg" alt=""></a>
+                <div class="des">
+                    <h5>Fire and Blood</h5>
+                    <h4>$7</h4>
+                </div>
+            </div>
+            
+            <div class="pro" >
+            <a href="thepower.html"><img src="p.png" alt=""></a>
+                <div class="des">
+                    <a href="thepower.html"><h5>The Power</h5></a>
+                    <h4>$13</h4>
+                </div>
+            </div>
+
+            <div class="pro" >
+            <a href="stranger.html"><img src="download (3).png" alt=""></a>
+                <div class="des">
+                    <h5>The Stranger</h5>
+                    <h4>$8</h4>
+                </div>
+            </div>
+            
+            <div class="pro" >
+            <a href="ring.html"><img src="download (3).jpeg" alt=""></a>
+                <div class="des">
+                    <h5>The Lord of the Rings</h5>
+                    <h4>$9</h4>
+                </div>
+            </div>
+            
+            <div class="pro" >
+            <a href="crime.html"><img src="images (1).jpeg" alt=""></a>
+                <div class="des">
+                    <h5>Crime and Punishment</h5>
+                    <h4>$11</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fiction" class="section-p1">
+        <h2>Fiction Books</h2>
+        <p>Explore our range of fiction books</p>
+        <div class="pro-container">
+            <div class="pro">
+                <a href="hu.jpeg"><img src="hu.jpeg" alt=""></a>
+                <div class="des">
+                    <span></span>
+                    <h5>The Hunger Games</h5>
+                    <h4>$7</h4>
+                </div>
+            </div>
+    
+            <div class="pro">
+                <a href="fire.html"><img src="f.jpeg" alt=""></a>
+                <div class="des">
+                    <span></span>
+                    <h5>Fire and Blood</h5>
+                    <h4>$7</h4>
+                </div>
+            </div>
+            
+            <div class="pro">
+                <a href="thepower.html"><img src="p.png" alt=""></a>
+                <div class="des">
+                    <span></span>
+                    <a href="thepower.html"><h5>The Power</h5></a>
+                    <h4>$13</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="mystery" class="section-p1">
+        <h2>Mystery Books</h2>
+        <p>Discover our collection of mystery books</p>
+        <div class="pro-container">
+            <div class="pro">
+                <a href="stranger.html"><img src="download (3).png" alt=""></a>
+                <div class="des">
+                    <span></span>
+                    <a href="stranger.html"><h5>The Stranger</h5></a>
+                    <h4>$8</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="fantasy" class="section-p1">
+        <h2>Fantasy Books</h2>
+        <p>Browse our fantasy book selection</p>
+        <div class="pro-container">
+            <div class="pro">
+                <a href="ring.html"><img src="download (3).jpeg" alt=""></a>
+                <div class="des">
+                    <span></span>
+                    <a href="ring.html"><h5>The Lord of the Rings</h5></a>
+                    <h4>$9</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="classics" class="section-p1">
+        <h2>Classic Books</h2>
+        <p>Explore timeless classic books</p>
+        <div class="pro-container">
+            <div class="pro">
+                <a href="crime.html"><img src="images (1).jpeg" alt=""></a>
+                <div class="des">
+                    <span></span>
+                    <h5>Crime and Punishment</h5>
+                    <h4>$11</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are an online bookstore offering a wide range of books across various genres. Discover your next great read with us.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="ring.html">Fiction</a></li>
+                    <li><a href="crime.html">Mystery</a></li>
+                    <li><a href="hunger.html">Fantasy</a></li>
+                    <li><a href="stranger.html">Classics</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: bookutopia@bookstore.com</li>
+                    <li>Phone: 961+76424172</li>
+                </ul>
+            </div>
+            <div class="footer-section social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="about.js"></script>
+    <link href="sam.css" rel="stylesheet">
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
+
+
